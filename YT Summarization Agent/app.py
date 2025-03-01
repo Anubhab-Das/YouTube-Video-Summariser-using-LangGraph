@@ -6,7 +6,7 @@ import google.generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi
 from urllib.parse import urlparse, parse_qs
 
-genai.configure(api_key="AIzaSyCf2fxYoO2xTJVXAOL23_WXMjpBJfOY_b0")
+genai.configure(api_key="<your_api_key")
 
 @dataclass(kw_only=True)
 class SummaryState(TypedDict):
