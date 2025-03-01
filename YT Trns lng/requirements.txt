@@ -1,0 +1,7 @@
+dataclasses
+google.generativeai
+streamlit
+langgraph.graph
+typing
+youtube_transcript_api
+urllib.parse
